@@ -25,6 +25,8 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig  extends WebSecurityConfigurerAdapter{
+
+  
     @Autowired
     private CustomUserDetailsService userDetailsService;
 
@@ -69,7 +71,8 @@ public class SecurityConfig  extends WebSecurityConfigurerAdapter{
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.cors().disable();
+        // http.cors().disable();
+        http.cors();
         http.csrf().disable();
         http.authorizeRequests().antMatchers("/authenticate")
         .permitAll().antMatchers(HttpMethod.OPTIONS , "/**");
