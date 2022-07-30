@@ -30,7 +30,8 @@ import java.awt.image.BufferedImage;
 import org.springframework.http.HttpStatus;
 
 @RestController
-@CrossOrigin(origins="http://localhost:4200")
+// @CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin(origins="https://portfoliobackdiegodelias.herokuapp.com")
 public class EducacionController {
     @Autowired
     CloudinaryService cloudinaryService;

@@ -32,7 +32,8 @@ import java.util.Map;
 
 
 @RestController
-@CrossOrigin(origins="http://localhost:4200")
+// @CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin(origins="https://portfoliobackdiegodelias.herokuapp.com")
 public class TrabajoController {
 
     @Autowired   
