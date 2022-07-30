@@ -35,7 +35,7 @@ public class ArgentinaProgramaPortfolioApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/*").allowedOrigins("https://portfoliobackdiegodelias.herokuapp.com").allowedHeaders("*").allowedOriginPatterns("*").allowedMethods("*")
+				registry.addMapping("/**").allowedOrigins("https://portfoliobackdiegodelias.herokuapp.com").allowedHeaders("*").allowedOriginPatterns("*").allowedMethods("*")
 				.allowCredentials(true);
 				
 			}
