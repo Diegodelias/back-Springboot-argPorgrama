@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ArgentinaProgramaPortfolioApplication<Argentina-programa-portfolio>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.diegodeliasPortfolio.Argentinaprogramaportfolio.ArgentinaProgramaPortfolioApplication",
+            "projectName": "Argentina-programa-portfolio",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
