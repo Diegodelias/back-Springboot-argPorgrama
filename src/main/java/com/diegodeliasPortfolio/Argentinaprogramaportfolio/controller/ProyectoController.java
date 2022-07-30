@@ -34,7 +34,7 @@ import javax.imageio.ImageIO;
 
 @RestController
 // @CrossOrigin(origins="http://localhost:4200")
-@CrossOrigin(origins="https://porfolioargprogramadiegodelias.web.app/")
+@CrossOrigin(origins="https://porfolioargprogramadiegodelias.web.app")
 public class ProyectoController {
     @Autowired
     private ProyectoService proyectoservice;

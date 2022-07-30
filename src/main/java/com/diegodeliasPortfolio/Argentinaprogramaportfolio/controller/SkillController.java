@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@CrossOrigin(origins="https://portfoliobackdiegodelias.herokuapp.com")
+@CrossOrigin(origins="https://porfolioargprogramadiegodelias.web.app")
 public class SkillController {
     @Autowired
     private SkillService skillservice;
